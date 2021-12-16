@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - MemberServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>MemberServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/jpabook.jpashop.service.html">jpabook.jpashop.service</a> &gt; MemberServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.337s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">중복_회원_예외()</td>
+<td class="success">0.290s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">회원가입()</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>03:33:10.386 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+03:33:10.395 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+03:33:10.424 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [jpabook.jpashop.service.MemberServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+03:33:10.433 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [jpabook.jpashop.service.MemberServiceTest], using SpringBootContextLoader
+03:33:10.436 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [jpabook.jpashop.service.MemberServiceTest]: class path resource [jpabook/jpashop/service/MemberServiceTest-context.xml] does not exist
+03:33:10.436 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [jpabook.jpashop.service.MemberServiceTest]: class path resource [jpabook/jpashop/service/MemberServiceTestContext.groovy] does not exist
+03:33:10.436 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [jpabook.jpashop.service.MemberServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+03:33:10.437 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [jpabook.jpashop.service.MemberServiceTest]: MemberServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:33:10.473 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [jpabook.jpashop.service.MemberServiceTest]
+03:33:10.516 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/kimjinseop/study/jpashop/build/classes/java/main/jpabook/jpashop/JpashopApplication.class]
+03:33:10.518 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration jpabook.jpashop.JpashopApplication for test class jpabook.jpashop.service.MemberServiceTest
+03:33:10.591 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [jpabook.jpashop.service.MemberServiceTest]: using defaults.
+03:33:10.592 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+03:33:10.604 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56c9bbd8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@630cb4a4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@636e8cc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f79a760, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@14f5da2c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12dae582, org.springframework.test.context.transaction.TransactionalTestExecutionListener@239b0f9d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@619bfe29, org.springframework.test.context.event.EventPublishingTestExecutionListener@5b057c8c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1eb6749b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@652a7737, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b7ea70d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2bef51f2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@650eab8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@30f5a68a]
+03:33:10.607 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@5b04476e testClass = MemberServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5ad10c1a testClass = MemberServiceTest, locations = '{}', classes = '{class jpabook.jpashop.JpashopApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7a220c9a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@492691d7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67545b57, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3daf7722, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1458ed9c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@15ca7889], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+03:33:10.651 [Test worker] DEBUG org.springframework.boot.ApplicationServletEnvironment - Activating profiles []
+03:33:10.654 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.0)
+
+2021-12-17 03:33:10.884  INFO 28209 --- [    Test worker] j.jpashop.service.MemberServiceTest      : Starting MemberServiceTest using Java 16.0.1 on gimjinseob-ui-MacBookPro.local with PID 28209 (started by kimjinseop in /Users/kimjinseop/study/jpashop)
+2021-12-17 03:33:10.885  INFO 28209 --- [    Test worker] j.jpashop.service.MemberServiceTest      : No active profile set, falling back to default profiles: default
+2021-12-17 03:33:11.388  INFO 28209 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-17 03:33:11.401  INFO 28209 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2021-12-17 03:33:11.830  INFO 28209 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-17 03:33:11.949  INFO 28209 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-17 03:33:12.018  INFO 28209 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-17 03:33:12.055  INFO 28209 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-17 03:33:12.172  INFO 28209 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-17 03:33:12.261  INFO 28209 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-17 03:33:12.780 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop table if exists category CASCADE 
+2021-12-17 03:33:12.783  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592783 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop table if exists category CASCADE 
+drop table if exists category CASCADE ;
+2021-12-17 03:33:12.783 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop table if exists category_item CASCADE 
+2021-12-17 03:33:12.783  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592783 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop table if exists category_item CASCADE 
+drop table if exists category_item CASCADE ;
+2021-12-17 03:33:12.783 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop table if exists delivery CASCADE 
+2021-12-17 03:33:12.783  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592783 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop table if exists delivery CASCADE 
+drop table if exists delivery CASCADE ;
+2021-12-17 03:33:12.784 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop table if exists item CASCADE 
+2021-12-17 03:33:12.784  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592784 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop table if exists item CASCADE 
+drop table if exists item CASCADE ;
+2021-12-17 03:33:12.784 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop table if exists member CASCADE 
+2021-12-17 03:33:12.784  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592784 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop table if exists member CASCADE 
+drop table if exists member CASCADE ;
+2021-12-17 03:33:12.784 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop table if exists order_item CASCADE 
+2021-12-17 03:33:12.784  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592784 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop table if exists order_item CASCADE 
+drop table if exists order_item CASCADE ;
+2021-12-17 03:33:12.785 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop table if exists orders CASCADE 
+2021-12-17 03:33:12.785  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592785 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop table if exists orders CASCADE 
+drop table if exists orders CASCADE ;
+2021-12-17 03:33:12.785 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : drop sequence if exists hibernate_sequence
+2021-12-17 03:33:12.785  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592785 | took 0ms | statement | connection 2| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+drop sequence if exists hibernate_sequence
+drop sequence if exists hibernate_sequence;
+2021-12-17 03:33:12.787 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by 1
+2021-12-17 03:33:12.788  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592788 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create sequence hibernate_sequence start with 1 increment by 1
+create sequence hibernate_sequence start with 1 increment by 1;
+2021-12-17 03:33:12.789 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create table category (category_id bigint not null, name varchar(255), parent_id bigint, primary key (category_id))
+2021-12-17 03:33:12.792  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592792 | took 3ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create table category (category_id bigint not null, name varchar(255), parent_id bigint, primary key (category_id))
+create table category (category_id bigint not null, name varchar(255), parent_id bigint, primary key (category_id));
+2021-12-17 03:33:12.793 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create table category_item (category_id bigint not null, item_id bigint not null)
+2021-12-17 03:33:12.793  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592793 | took 0ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create table category_item (category_id bigint not null, item_id bigint not null)
+create table category_item (category_id bigint not null, item_id bigint not null);
+2021-12-17 03:33:12.793 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create table delivery (delivery_id bigint not null, city varchar(255), street varchar(255), zipcode varchar(255), status varchar(255), primary key (delivery_id))
+2021-12-17 03:33:12.794  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592794 | took 0ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create table delivery (delivery_id bigint not null, city varchar(255), street varchar(255), zipcode varchar(255), status varchar(255), primary key (delivery_id))
+create table delivery (delivery_id bigint not null, city varchar(255), street varchar(255), zipcode varchar(255), status varchar(255), primary key (delivery_id));
+2021-12-17 03:33:12.794 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create table item (dtype varchar(31) not null, item_id bigint not null, name varchar(255), price integer not null, stock_quantity integer not null, artist varchar(255), etc varchar(255), author varchar(255), isbn varchar(255), actor varchar(255), director varchar(255), primary key (item_id))
+2021-12-17 03:33:12.795  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592795 | took 0ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create table item (dtype varchar(31) not null, item_id bigint not null, name varchar(255), price integer not null, stock_quantity integer not null, artist varchar(255), etc varchar(255), author varchar(255), isbn varchar(255), actor varchar(255), director varchar(255), primary key (item_id))
+create table item (dtype varchar(31) not null, item_id bigint not null, name varchar(255), price integer not null, stock_quantity integer not null, artist varchar(255), etc varchar(255), author varchar(255), isbn varchar(255), actor varchar(255), director varchar(255), primary key (item_id));
+2021-12-17 03:33:12.796 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create table member (member_id bigint not null, city varchar(255), street varchar(255), zipcode varchar(255), name varchar(255), delivery_delivery_id bigint, primary key (member_id))
+2021-12-17 03:33:12.796  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592796 | took 0ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create table member (member_id bigint not null, city varchar(255), street varchar(255), zipcode varchar(255), name varchar(255), delivery_delivery_id bigint, primary key (member_id))
+create table member (member_id bigint not null, city varchar(255), street varchar(255), zipcode varchar(255), name varchar(255), delivery_delivery_id bigint, primary key (member_id));
+2021-12-17 03:33:12.797 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create table order_item (order_item_id bigint not null, count integer not null, order_price integer not null, item_id bigint, order_id bigint, primary key (order_item_id))
+2021-12-17 03:33:12.798  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592798 | took 0ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create table order_item (order_item_id bigint not null, count integer not null, order_price integer not null, item_id bigint, order_id bigint, primary key (order_item_id))
+create table order_item (order_item_id bigint not null, count integer not null, order_price integer not null, item_id bigint, order_id bigint, primary key (order_item_id));
+2021-12-17 03:33:12.798 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : create table orders (order_id bigint not null, order_date timestamp, status varchar(255), delivery_id bigint, member_id bigint, primary key (order_id))
+2021-12-17 03:33:12.799  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592799 | took 0ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+create table orders (order_id bigint not null, order_date timestamp, status varchar(255), delivery_id bigint, member_id bigint, primary key (order_id))
+create table orders (order_id bigint not null, order_date timestamp, status varchar(255), delivery_id bigint, member_id bigint, primary key (order_id));
+2021-12-17 03:33:12.799 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table category add constraint FK2y94svpmqttx80mshyny85wqr foreign key (parent_id) references category
+2021-12-17 03:33:12.804  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592804 | took 5ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table category add constraint FK2y94svpmqttx80mshyny85wqr foreign key (parent_id) references category
+alter table category add constraint FK2y94svpmqttx80mshyny85wqr foreign key (parent_id) references category;
+2021-12-17 03:33:12.805 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table category_item add constraint FKu8b4lwqutcdq3363gf6mlujq foreign key (item_id) references item
+2021-12-17 03:33:12.806  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592806 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table category_item add constraint FKu8b4lwqutcdq3363gf6mlujq foreign key (item_id) references item
+alter table category_item add constraint FKu8b4lwqutcdq3363gf6mlujq foreign key (item_id) references item;
+2021-12-17 03:33:12.806 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table category_item add constraint FKcq2n0opf5shyh84ex1fhukcbh foreign key (category_id) references category
+2021-12-17 03:33:12.807  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592807 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table category_item add constraint FKcq2n0opf5shyh84ex1fhukcbh foreign key (category_id) references category
+alter table category_item add constraint FKcq2n0opf5shyh84ex1fhukcbh foreign key (category_id) references category;
+2021-12-17 03:33:12.808 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table member add constraint FKcqi3bikeiud5q9spd28646rs foreign key (delivery_delivery_id) references delivery
+2021-12-17 03:33:12.809  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592809 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table member add constraint FKcqi3bikeiud5q9spd28646rs foreign key (delivery_delivery_id) references delivery
+alter table member add constraint FKcqi3bikeiud5q9spd28646rs foreign key (delivery_delivery_id) references delivery;
+2021-12-17 03:33:12.809 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table order_item add constraint FKija6hjjiit8dprnmvtvgdp6ru foreign key (item_id) references item
+2021-12-17 03:33:12.810  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592810 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table order_item add constraint FKija6hjjiit8dprnmvtvgdp6ru foreign key (item_id) references item
+alter table order_item add constraint FKija6hjjiit8dprnmvtvgdp6ru foreign key (item_id) references item;
+2021-12-17 03:33:12.810 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table order_item add constraint FKt4dc2r9nbvbujrljv3e23iibt foreign key (order_id) references orders
+2021-12-17 03:33:12.812  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592812 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table order_item add constraint FKt4dc2r9nbvbujrljv3e23iibt foreign key (order_id) references orders
+alter table order_item add constraint FKt4dc2r9nbvbujrljv3e23iibt foreign key (order_id) references orders;
+2021-12-17 03:33:12.812 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table orders add constraint FKtkrur7wg4d8ax0pwgo0vmy20c foreign key (delivery_id) references delivery
+2021-12-17 03:33:12.813  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592813 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table orders add constraint FKtkrur7wg4d8ax0pwgo0vmy20c foreign key (delivery_id) references delivery
+alter table orders add constraint FKtkrur7wg4d8ax0pwgo0vmy20c foreign key (delivery_id) references delivery;
+2021-12-17 03:33:12.813 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : alter table orders add constraint FKpktxwhj3x9m4gth5ff6bkqgeb foreign key (member_id) references member
+2021-12-17 03:33:12.814  INFO 28209 --- [    Test worker] p6spy                                    : #1639679592814 | took 1ms | statement | connection 3| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+alter table orders add constraint FKpktxwhj3x9m4gth5ff6bkqgeb foreign key (member_id) references member
+alter table orders add constraint FKpktxwhj3x9m4gth5ff6bkqgeb foreign key (member_id) references member;
+2021-12-17 03:33:12.816  INFO 28209 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-17 03:33:12.821  INFO 28209 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-17 03:33:12.992  WARN 28209 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-17 03:33:13.190  INFO 28209 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-12-17 03:33:13.380  INFO 28209 --- [    Test worker] j.jpashop.service.MemberServiceTest      : Started MemberServiceTest in 2.725 seconds (JVM running for 3.599)
+2021-12-17 03:33:13.446  INFO 28209 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5b04476e testClass = MemberServiceTest, testInstance = jpabook.jpashop.service.MemberServiceTest@5f1db390, testMethod = 중복_회원_예외@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5ad10c1a testClass = MemberServiceTest, locations = '{}', classes = '{class jpabook.jpashop.JpashopApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7a220c9a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@492691d7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67545b57, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3daf7722, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1458ed9c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@15ca7889], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@712594f4]; rollback [true]
+2021-12-17 03:33:13.627 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name=?
+2021-12-17 03:33:13.636  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593636 | took 3ms | statement | connection 4| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name=?
+select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name='member';
+2021-12-17 03:33:13.641 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : call next value for hibernate_sequence
+2021-12-17 03:33:13.642  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593642 | took 0ms | statement | connection 4| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+call next value for hibernate_sequence
+call next value for hibernate_sequence;
+2021-12-17 03:33:13.678 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : insert into member (city, street, zipcode, delivery_delivery_id, name, member_id) values (?, ?, ?, ?, ?, ?)
+2021-12-17 03:33:13.679  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593679 | took 0ms | statement | connection 4| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+insert into member (city, street, zipcode, delivery_delivery_id, name, member_id) values (?, ?, ?, ?, ?, ?)
+insert into member (city, street, zipcode, delivery_delivery_id, name, member_id) values (NULL, NULL, NULL, NULL, 'member', 1);
+2021-12-17 03:33:13.683 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name=?
+2021-12-17 03:33:13.683  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593683 | took 0ms | statement | connection 4| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name=?
+select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name='member';
+2021-12-17 03:33:13.689  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593689 | took 0ms | rollback | connection 4| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+
+;
+2021-12-17 03:33:13.691  INFO 28209 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5b04476e testClass = MemberServiceTest, testInstance = jpabook.jpashop.service.MemberServiceTest@5f1db390, testMethod = 중복_회원_예외@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5ad10c1a testClass = MemberServiceTest, locations = '{}', classes = '{class jpabook.jpashop.JpashopApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7a220c9a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@492691d7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67545b57, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3daf7722, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1458ed9c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@15ca7889], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+2021-12-17 03:33:13.697  INFO 28209 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5b04476e testClass = MemberServiceTest, testInstance = jpabook.jpashop.service.MemberServiceTest@6414eb98, testMethod = 회원가입@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5ad10c1a testClass = MemberServiceTest, locations = '{}', classes = '{class jpabook.jpashop.JpashopApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7a220c9a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@492691d7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67545b57, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3daf7722, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1458ed9c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@15ca7889], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@712594f4]; rollback [true]
+2021-12-17 03:33:13.698 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name=?
+2021-12-17 03:33:13.699  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593699 | took 0ms | statement | connection 5| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name=?
+select member0_.member_id as member_i1_4_, member0_.city as city2_4_, member0_.street as street3_4_, member0_.zipcode as zipcode4_4_, member0_.delivery_delivery_id as delivery6_4_, member0_.name as name5_4_ from member member0_ where member0_.name='member1';
+2021-12-17 03:33:13.699 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : call next value for hibernate_sequence
+2021-12-17 03:33:13.699  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593699 | took 0ms | statement | connection 5| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+call next value for hibernate_sequence
+call next value for hibernate_sequence;
+2021-12-17 03:33:13.700 DEBUG 28209 --- [    Test worker] org.hibernate.SQL                        : insert into member (city, street, zipcode, delivery_delivery_id, name, member_id) values (?, ?, ?, ?, ?, ?)
+2021-12-17 03:33:13.701  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593701 | took 0ms | statement | connection 5| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+insert into member (city, street, zipcode, delivery_delivery_id, name, member_id) values (?, ?, ?, ?, ?, ?)
+insert into member (city, street, zipcode, delivery_delivery_id, name, member_id) values (NULL, NULL, NULL, NULL, 'member1', 2);
+2021-12-17 03:33:13.742  INFO 28209 --- [    Test worker] p6spy                                    : #1639679593742 | took 0ms | rollback | connection 5| url jdbc:h2:mem:434ec18c-899c-446e-8535-a0dd2420b6b3
+
+;
+2021-12-17 03:33:13.743  INFO 28209 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@5b04476e testClass = MemberServiceTest, testInstance = jpabook.jpashop.service.MemberServiceTest@6414eb98, testMethod = 회원가입@MemberServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5ad10c1a testClass = MemberServiceTest, locations = '{}', classes = '{class jpabook.jpashop.JpashopApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7a220c9a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@492691d7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@67545b57, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3daf7722, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1458ed9c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@15ca7889], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.2</a> at 2021. 12. 17. 오전 3:33:13</p>
+</div>
+</div>
+</body>
+</html>
