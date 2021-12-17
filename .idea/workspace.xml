@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca4b55b-0227-4f2e-93e5-eefcb1c9070f" name="Default Changelist" comment="ReadMe 작성">
+    <list default="true" id="eca4b55b-0227-4f2e-93e5-eefcb1c9070f" name="Default Changelist" comment="상품 비즈니스 로직 추가&#10;- 재고 증가&#10;- 재고 감소">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/item/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/item/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +69,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.MemberServiceTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,7 +170,8 @@
       <updated>1639646903712</updated>
       <workItem from="1639646906808" duration="11005000" />
       <workItem from="1639714813641" duration="1840000" />
-      <workItem from="1639758553836" duration="578000" />
+      <workItem from="1639758553836" duration="766000" />
+      <workItem from="1639759325508" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="add MemberRepository">
       <created>1639661652192</created>
@@ -234,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639717892224</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="상품 비즈니스 로직 추가&#10;- 재고 증가&#10;- 재고 감소">
+      <created>1639759177637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639759177637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +270,7 @@
     <MESSAGE value="MemberService Test 구현&#10;- 테스트용 DB 따로 설정(메모리)&#10;- 회원가입, 회원가입 예외처리 확인" />
     <MESSAGE value="MemberService Test 구현" />
     <MESSAGE value="ReadMe 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReadMe 작성" />
+    <MESSAGE value="상품 비즈니스 로직 추가&#10;- 재고 증가&#10;- 재고 감소" />
+    <option name="LAST_COMMIT_MESSAGE" value="상품 비즈니스 로직 추가&#10;- 재고 증가&#10;- 재고 감소" />
   </component>
 </project>
