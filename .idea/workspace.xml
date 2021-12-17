@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca4b55b-0227-4f2e-93e5-eefcb1c9070f" name="Default Changelist" comment="MemberService Test 클래스 생성">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="eca4b55b-0227-4f2e-93e5-eefcb1c9070f" name="Default Changelist" comment="MemberService Test 구현">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/jpabook/jpashop/domain/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/jpabook.jpashop.MemberRepositoryTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/jpabook.jpashop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-jpabook.jpashop.MemberRepositoryTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jpabook/jpashop/service/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpabook/jpashop/service/MemberServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +22,10 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22OhzsVtdhQMqtOnM9fsWsLyyYP" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -77,17 +63,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.MemberServiceTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -174,7 +149,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639646903712</updated>
-      <workItem from="1639646906808" duration="10037000" />
+      <workItem from="1639646906808" duration="11005000" />
+      <workItem from="1639714813641" duration="1546000" />
     </task>
     <task id="LOCAL-00001" summary="add MemberRepository">
       <created>1639661652192</created>
@@ -218,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639675025799</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MemberService Test 구현&#10;- 테스트용 DB 따로 설정(메모리)&#10;- 회원가입, 회원가입 예외처리 확인">
+      <created>1639679953760</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639679953760</updated>
+    </task>
+    <task id="LOCAL-00008" summary="MemberService Test 구현">
+      <created>1639680021052</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639680021052</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +224,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add MemberRepository" />
@@ -241,6 +232,8 @@
     <MESSAGE value="Member Service 생성" />
     <MESSAGE value="Member Service 구현" />
     <MESSAGE value="MemberService Test 클래스 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="MemberService Test 클래스 생성" />
+    <MESSAGE value="MemberService Test 구현&#10;- 테스트용 DB 따로 설정(메모리)&#10;- 회원가입, 회원가입 예외처리 확인" />
+    <MESSAGE value="MemberService Test 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="MemberService Test 구현" />
   </component>
 </project>
