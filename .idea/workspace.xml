@@ -7,7 +7,7 @@
     <list default="true" id="eca4b55b-0227-4f2e-93e5-eefcb1c9070f" name="Default Changelist" comment="상품 비즈니스 로직 추가&#10;- 재고 증가&#10;- 재고 감소">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/repository/OrderRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,12 +54,16 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpabook.jpashop.repository" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
@@ -216,7 +220,7 @@
       <workItem from="1639714813641" duration="1840000" />
       <workItem from="1639758553836" duration="766000" />
       <workItem from="1639759325508" duration="651000" />
-      <workItem from="1639800902727" duration="9632000" />
+      <workItem from="1639800902727" duration="12991000" />
     </task>
     <task id="LOCAL-00001" summary="add MemberRepository">
       <created>1639661652192</created>
