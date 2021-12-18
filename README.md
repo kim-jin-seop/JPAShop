@@ -18,3 +18,7 @@ Q) @Transactional?
 Q) @RunWith(SpringRunner.class)?
 - Spring을 동작시켜 테스트하고 싶을 때 사용할 수 있음.
 - @SpringBootTest보다 좀 더 가볍게 테스트가 가능함.
+
+Q) 동적쿼리해결법?
+- JPA 스펙으로 Criteria를 사용해 동적쿼리를 만들 수 있음.(가독성이 떨어짐 어떤 sql 질의가 나올지 모르겠음)
+- Querydsl을 사용하면 동적쿼리를 만들 수 있음.
