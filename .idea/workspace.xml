@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eca4b55b-0227-4f2e-93e5-eefcb1c9070f" name="Default Changelist" comment="상품 비즈니스 로직 추가&#10;- 재고 증가&#10;- 재고 감소">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +71,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.MemberServiceTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,7 +160,8 @@
       <workItem from="1639646906808" duration="11005000" />
       <workItem from="1639714813641" duration="1840000" />
       <workItem from="1639758553836" duration="766000" />
-      <workItem from="1639759325508" duration="579000" />
+      <workItem from="1639759325508" duration="651000" />
+      <workItem from="1639800902727" duration="3382000" />
     </task>
     <task id="LOCAL-00001" summary="add MemberRepository">
       <created>1639661652192</created>
