@@ -22,3 +22,6 @@ Q) @RunWith(SpringRunner.class)?
 Q) 동적쿼리해결법?
 - JPA 스펙으로 Criteria를 사용해 동적쿼리를 만들 수 있음.(가독성이 떨어짐 어떤 sql 질의가 나올지 모르겠음)
 - Querydsl을 사용하면 동적쿼리를 만들 수 있음.
+
+Q) BindingResult?
+- Valid로 데이터를 확인할 때 오류가 있으면 그 오류 정보를 넘겨줌
