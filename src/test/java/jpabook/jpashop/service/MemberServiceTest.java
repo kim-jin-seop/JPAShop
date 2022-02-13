@@ -13,6 +13,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @RunWith(SpringRunner.class)
@@ -33,7 +35,12 @@ class MemberServiceTest {
         Long saveId = memberService.join(member);
 
         em.flush();
-        Assertions.assertThat(member).isEqualTo(memberRepository.findOne(saveId));
+        Member findMember = memberRepository.findOne(saveId);
+        Assertions.assertThat(member.getId()).isEqualTo(findMember.getId());
+        Assertions.assertThat(member.getName()).isEqualTo(findMember.getName());
+        Assertions.assertThat(member.getAddress()).isEqualTo(findMember.getAddress());
+        Assertions.assertThat(member.getDelivery()).isEqualTo(findMember.getDelivery());
+        Assertions.assertThat(member.getOrders()).isEqualTo(findMember.getOrders());
     }
 
     @Test
@@ -48,5 +55,19 @@ class MemberServiceTest {
         assertThrows(IllegalStateException.class,()-> {
             memberService.join(member2);
                 });//  예외 발생
+    }
+
+    @Test
+    void 회원출력(){
+        Member member = new Member();
+        member.setName("member1");
+
+        Long saveId = memberService.join(member);
+        em.flush();
+
+        List<Member> members = memberService.findMembers();
+        for(Member m : members){
+            Assertions.assertThat(m.getName()).isEqualTo("member1");
+        }
     }
 }
