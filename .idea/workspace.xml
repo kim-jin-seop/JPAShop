@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca4b55b-0227-4f2e-93e5-eefcb1c9070f" name="Default Changelist" comment="상품 비즈니스 로직 추가&#10;- 재고 증가&#10;- 재고 감소">
+      <change afterPath="$PROJECT_DIR$/gradle/.idea/gradle.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/api/OrderSimpleApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/api/OrderSimpleApiController.java" afterDir="false" />
     </list>
@@ -273,6 +274,11 @@
       <workItem from="1647257926355" duration="8000" />
       <workItem from="1647518508726" duration="4415000" />
       <workItem from="1647698420583" duration="7000" />
+      <workItem from="1648005968768" duration="41000" />
+      <workItem from="1648367265999" duration="117000" />
+      <workItem from="1648373491871" duration="24000" />
+      <workItem from="1649163098912" duration="1401000" />
+      <workItem from="1649207203823" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary="add MemberRepository">
       <created>1639661652192</created>
